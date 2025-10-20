@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Casopráctico2</title>
 </head>
-<body>
-    <form action = "proceso.php" method = "post">
-    <fieldset> <!-- Para agrupar todo lo escrito dentro rodeado por un bloque-->
-        Nombre: <input type = "text" name = "nombre" required> <br> <br> <!-- Para hacer una separación de párrafos-->
-        Edad: <input type="number" name = "edad" > <br> <br>
-        <input type="submit" value = "Enviar">
-    </fieldset>
 
+<body>
+
+    <form action="proceso.php" method="post">
+
+        <fieldset> <!-- Para agrupar todo lo escrito dentro rodeado por un bloque-->
+            <h2> <b> Datos personales </b></h2>
+            Nombre: <input type="text" name="nombre" required> <br> <br> <!-- Para hacer una separación de párrafos-->
+            Edad: <input type="number" name="edad"> <br> <br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+
+        <fieldset>
+            <h2> <b> Datos de interés </b></h2>
+            <!-- Para crear un pequeño texto de elección entre 1, 2 o varias donde se deberá de elegir una-->
+            ¿Estás casado/a? <input type="radio" name="matrimonio" value="Sí"> Sí
+            <input type="radio" name="soltero/a" value="No"> No
+
+            <p>
+                Deportes: <!-- Para crear cajitas donde poder maracar esa opción que te dan -->
+                <input type="checkbox" name="Baloncesto"> Baloncesto 
+                <input type="checkbox" name="Fúbol"> Fúbol
+                <input type="checkbox" name="Ciclismo"> Ciclismo
+            </p>
+
+        </fieldset>
     </form>
-    
+
 </body>
+
 </html>
