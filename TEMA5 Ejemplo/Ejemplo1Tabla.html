@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Tablas ejemplo 1</title>
+</head>
+<body>
+    <h1> Ejemplo Tabla 1 </h1>
+    <style>
+    table, th, td {
+      border: 1px solid black;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <colgroup>
+        <col span="2" style="background-color:red">
+        <col style="background-color:yellow">
+    </colgroup>
+    <tr>
+      <th colspan="4">Precio de las naranjas</th>
+    </tr>
+    <tr>
+      <th rowspan="4">Datos analizados</th>
+      <th>Provincia</th>
+      <th>Precio</th>
+    </tr>
+    <tr>
+      <td>Málaga</td>
+      <td>0,54€</td>
+    </tr>
+    <tr>
+      <td>Granada</td>
+      <td>0,45€</td>
+    </tr>
+    <tr>
+      <th>Promedio</th>
+      <th>0,5€</th>
+    </tr>
+  </table>
+</body>
+</html>

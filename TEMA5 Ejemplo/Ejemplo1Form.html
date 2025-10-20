@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+    <title> Formulario ejemplo 1 </title>
+    <h1> Formulario </h1>
+    <form action="proceso.php" method="get">
+        <!-- La dierencia entre "get" y "post" es que "post" lo utilizaremos cuando queramos ocultar el proceso en el enlace de la barra de búsqueda-->
+
+        Nombre: <input type="text" name="nombre">
+        <p>
+
+            <input type="radio" name="sexo" value="h"> Hombre
+            <input type="radio" name="sexo" value="h"> Mujer
+
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <input type="Button" value="Hola Mundo" onclick="alert('Bienvenido a mi página')">
+        <!-- Para crear una alerta ante un error o algo especial -->
+
+
+    </form>
+</body>
+
+</html>
