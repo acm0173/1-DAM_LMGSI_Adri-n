@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 5.1</title>
+</head>
+
+<body>
+    <form action="process.php" method="post"> <!--Creamos el formulario--> 
+        <fieldset> <!-- Para agrupar todo lo que vayamos a escribir en un rectángulo para poder tenerlo más organizado-->
+            <legend> <b> Datos Personales </b></legend> <!--"legend" es para darle un título al grupo -->
+            <p> Nombre: <input type="text" name="nombre" size="50" maxlength="15" required> </p> <!-- Required es para que no puedas pasar a la siguiente página si no has rellenado o seleccionado este campo u opción-->
+            <p> Apellidos: <input type="text" apellidos="apellidos" size="50" maxlength="30" required> </p>
+            <p> Edad: <input type="number" age="edad" max="100" size="40"> </p>
+            <br> Género: <br> <!--"br" sirve para separar entre renglones-->
+            <p></p>
+            <input type="radio" name="sexo" value="h"> Hombre <!--"radio" sirve para crear un selector de opciones en los que es obligatorio escoger uno de los que te den-->
+            <input type="radio" name="sexo" value="m"> Mujer
+
+        </fieldset>
+
+        <fieldset>
+            <legend> <b> Contacto </b> </legend>
+            <p> Correo electrónico: <input type="email" email="correo" size="40" maxlength="50" required> </p> <!--maxlengtho max y minlength o min sirve para poner un mínimo o máximo de carácteres o números en ese campo en concreto-->
+            <p> Código postal: <input type="number" postal="código" size="40" required> </p>
+            <p> Dirección: <input type="text" dirección="calle" size="40" required maxlength="80"> </p>
+            <p> Ciudad </p>
+            <p> <select name="Ciudades" required size="1"> <!--"select es una lista desplazable en la que escogerás una de las opciones mostradas"-->
+                    <option value="1" selected> Jaén </option>
+                    <option value="2"> Almería </option>
+                    <option value="2"> Sevilla </option>
+                    <option value="4"> Cádiz </option>
+                    <option value="5"> Granada </option>
+                    <option value="6"> Málaga </option>
+                    <option value="7"> Córdoba </option>
+                    <option value="8"> Huelva </option>
+                </select>
+            <p> Contraseña: <input type="password" contraseña="password" size="20" maxlength="12" minlength="8" required> </p> <!-- "Password" sirve para poner contraseñas-->
+                    
+        </fieldset>
+        <fieldset>
+            <legend> <b> Datos de interés </b> </legend>
+            <p> Estado civil: </p>
+            <input type="radio" name="Casado" value="C" size="40"> Casado
+            <input type="radio" name="Casado" value="NC" size="40"> No casado
+            <p> Hobbies </p>
+            <input type="checkbox" hobbie="Deportes" size="40"> Deportes <p></p> <!--Con "checkbox" se nos darán opciones en los que podemos elegir cual queramos sin restricción de que sea una única opción la elegida-->
+            <input type="checkbox" hobbie="Videojuegos" size="40"> Videojuegos <p></p>
+            <input type="checkbox" hobbie="Lectura" size="40"> Lectura <p></p>
+            <input type="checkbox" hobbie="Fotografía" size="40"> Fotografía <p></p>
+            <p> </p>
+            <p></p>
+            <h3> Comentarios Adicionales </h3>
+            <p></p>
+            <textarea name="comentario" size="20" maxlength="500" placeholder="Ingrese su comentario aquí..." rows="4" cols="27"></textarea> <!--Con "textarea" creamos un cuadro de texto desplazable, con rows y cols le añadiremos columnas y filas al comentario que se vaya a escribir-->
+        </fieldset> <!--"placeholder" sirve para crear un pequeño texto dentro de algún campo para así aclarar al usuario y específicarle qué tiene que hacer en ese campo en concreto--> 
+        <input type="submit" value="Enviar"> <!--Con "value" cambiaremos el valor predefinido por el código y este código "submit" es para enviar lo que hayas modificado mediante "post" a "proccess.php"-->
+        <input type="reset" value="Resetear"> <!--Con este comando resetearemos de forma rápida todo lo escrito y seleccionado-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
