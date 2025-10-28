@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 6.1</title>
+    <link rel="stylesheet"> <a
+        href="C:\Users\PC111\Desktop\TRABAJOS DE 1 DE DAM\1ºDAM\ASIGNATURAS GITHUB\LENGUAJE DE MARCAS\1-DAM_LMGSI_Adri-n\TEMA6\Ficheros de ejemplo">
+        <h3> CSS </h3>
+    </a>
+    <!--"link rel" y le añadimos un enlace a la ruta para que cuando accedamos a ella en el html, nos salga un directorio por el cual manejarnos-->
+</head>
+<hr>
+
+<body>
+    <header>
+        <h1> Formulario para curriculum </h1>
+    </header>
+    <hr>
+    <main>
+        <form action="proccess.php" method="post">
+            <fieldset>
+                <section> <!--"section" será para poder dividir información de temas similares del tema principal-->
+                    <nav> <!--nav es para crear enlaces dentro del mismo html que te lleven a otros sitios de interés-->
+                        <h2> <a
+                                href="file:///C:/Users/PC111/Desktop/TRABAJOS%20DE%201%20DE%20DAM/1%C2%BADAM/ASIGNATURAS%20GITHUB/LENGUAJE%20DE%20MARCAS/1-DAM_LMGSI_Adri-n/TEMA6/Formulario6.1.html">
+                                Formulario </a> </h2>
+                        <h2> <a
+                                href="file:///C:/Users/PC111/Desktop/TRABAJOS%20DE%201%20DE%20DAM/1%C2%BADAM/ASIGNATURAS%20GITHUB/LENGUAJE%20DE%20MARCAS/1-DAM_LMGSI_Adri-n/TEMA6/Preguntas%20frecuentes6.1.html">
+                                Preguntas frecuentes </a> </h2>
+                        <h4> <a
+                                href="file:///C:/Users/PC111/Desktop/TRABAJOS%20DE%201%20DE%20DAM/1%C2%BADAM/ASIGNATURAS%20GITHUB/LENGUAJE%20DE%20MARCAS/1-DAM_LMGSI_Adri-n/TEMA6/videoysonido.html">
+                                Audio</a> </h4>
+                        <article>
+                            <h3> Primer artículo de la sección formularios </h3>
+                        </article>
+                        <legend> <b> Nuevas etiquetas </b></legend>
+                        Correo electrónico: <input type="email" name="correo" size="40" min="5" maxlength="60" required
+                            placeholder="Gmail o Hotmail...">
+                        <!--Placeholder es para ayudar al usuario a saber que escribir o que se permite poner en la página-->
+                        <p> </p>
+                        Página Web: <input type="url" name="page" size="30">
+                        <!-- "url" para que el usuario pueda pegar sus enlaces-->
+                        <p> </p>
+                        Fecha de nacimiento: <input type="date" date="fecha de nacimiento" size="40" required>
+                        <!-- "date" es para poner fechas en un calendario, por ejemplo de nacimiento-->
+                        <p> </p>
+                        Color favorito: <input type="color" name="color" size="30">
+                        <!-- con "color" el usuario podrá elegir un colar basándose en la pregunta que le hagamos-->
+                    </nav>
+
+                    <p> </p>
+                    <article>
+                        <!-- en "article" lo pondremos para recoger o exponer información más concreta en nuestro html -->
+                        <h3> Segundo artículo de la sección formularios </h3>
+                    </article>
+                    Sueldo estimado: (Mínimo: 1.184 Euros - Máximo: 2.000 Euros) <input type="range" step="100"
+                        min="1184" max="2100" size="30" required>
+                    <p> </p>
+                    Años cotizados: <input type="number" name="cotizados" min="0" max="35" required
+                        pattern="^[0-9]{1,2}">
+                    <!-- de 0 a 9 es el máximo de puedes poner, no está permitido poner "10" y la corchea es para que los digito escritos sean máximo dos y mínimo 1-->
+                    <!--Con "pattern" haremos obligatorio que en el campo donde va a escribir nuestro usuario, tenga que regirse a unas reglas-->
+                    <!-- El elevado es para que sea obligatorio empezar con un dígito que es lo que buscamos aquí-->
+                    <p> </p>
+                    <span> <b> Progresso actual del formulario <progress value="90" max="100"> </progress> 90% 
+                        <!--"Progress es una forma de informar el usuario cuanto queda de descarga o cuanto lleva de progresión haciendo alguna acción en la página web"-->
+                            completado </b> </span>
+
+                    <p> </p>
+                </section>
+    </main>
+    </fieldset>
+    <aside><iframe src="https://example.com/ad-banner"> Banner </iframe> </aside> <!--"aside es para implementar temas publicitarios, calendarios, etc,..."-->
+    <!-- los "aside" se utilizan para temas que son secundarios o no se enfocan en el tema principal en concreto, como anuncios, calendarios, etc,...-->
+    <footer> <b> ©Formulario S.L</b> </footer> <!--en "footer" se pondrá el tema del copyright, atención al cliente, etc,...-->
+    </form> <!--fin del formulario-->
+
+
+</body>
+
+</html>
