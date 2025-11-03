@@ -1,0 +1,11 @@
+
+*{ color: blue;} /*El asterisco hará que todo el texto escrito es muestre en azul */
+p {text-align:center} /*Todos los elementos que sean párrafos están alineados al centro */
+.miclase{ border:solid 1px red} /* se ha creado una clase llamada mi clasee yse ha aplicado al párrafo 3. El estilo creado consiste en aplicar un borde rojo de 1px */
+#miidentificador{background-color:cyan}/*   */
+ul li{background-color:gray}
+h1,h2{border:solid 3px green}
+p>a{background-color:yellow}
+p+div{border:solid 2px blue} /* selectores adyacentes. Al ser un elemento <div>, hermano de un elemento,<p> se aplica borde azul */
+p[lang="es"] {background-color:red}
+p[lang="en"] {background-color:orange}
