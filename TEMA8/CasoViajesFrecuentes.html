@@ -8,48 +8,49 @@
 
 
     <style>
-        #titulo {
-           /* text-transform: uppercase; */
-            text-align: center;
-            font-family: verdana;
-            letter-spacing: 3px; /*espacio entre letras*/
+        #titulo { /*selecciona el elemento con el ID*/
+            text-align: center; /*centra el texto*/
+            font-family: verdana; /*Define la fuente de la letra */
+            letter-spacing: 3px; /*Espacio entre las letras*/
             color: blue;
         }
 
         table {
-            border-collapse: collapse; /*borde que quita las barras que separa
+            border-collapse: collapse; /*Elimina el espacio entre los bordes de las celdas.*/
             width: 50%;
             margin-left: 25%;
-            /*porcentaje de margen*/
-            border: solid 3px black;
+            /*Aplica un margen izquierdo para centrar la tabla al 25%*/
+            border: solid 3px black; /*Define un borde solido de 3 pixeles*/
         }
 
-        th {
-            text-align: left;
-            padding: 8px;
+        th { /*encabezado de la tabla*/
+            text-align: left; /*alinea el texto hacia la izquierda*/
+            padding: 8px; /*Aplica un relleno a la tabla*/
             font-family: verdana;
-            font-size: 1.5rem;
-            background-color: #4CAF50;
+            font-size: 1.5rem; /*establece el tamaño de la fuente a 1.5rem*/
+            background-color: #4CAF50; /*color del fondo*/
             color: white;
         }
 
-        td {
+        td { /*datos que contiene la tabla*/
             text-align: left;
             padding: 8px;
             /*Separación de texto y la tabla, ensanchar columnas o filas*/
             font-size: 1.5rem;
         }
 
-        .numero {
+        .numero { /*añadiendo class en el html, cuando vayamos al css pondremos un .clasecreada en el html*/
             text-align: right;
         }
 
-        tr {
-            border: solid 1px black;
+        tr { /*estilo de las filas de la tabla*/
+           
+            border: solid 1px black;  /*La linea de la mitad de la tabla que separa cada valor*/
+
         }
 
-        tr:nth-child(even) {
-            /*Los pares se colorearán con un color determinado*/
+        tr:nth-child(even) { 
+         /*selecciona las filas pares y les aplica un color de fondo gris claro en este ejemplo*/
             background-color: #f2f2f2
         }
 
