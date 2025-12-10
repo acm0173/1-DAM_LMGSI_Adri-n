@@ -1,0 +1,54 @@
+ 
+        /* ESTRUCTURA Y CAJAS */
+        * {
+            box-sizing: border-box; /*Hace que el padding y border se incluyan dentro del ancho total del elemento */
+            font-family: 'Roboto', sans-serif; /*TIPOGRAFÍA: Fuente de Google Fonts aplicada a todo el documento */
+        }
+
+        body {
+            background: linear-gradient(to right, #f0f8ff, #e6f7ff); /*Gradiente de fondo horizontal */
+        }
+
+        h1, h2, h3 {
+            text-shadow: 1px 1px 2px #aaa; /*Sombra en el texto para dar profundidad */
+        }
+
+        img {
+            float: left; /*DISPOSICIÓN: Organiza la imagen a la izquierda del texto */
+            margin-right: 20px;
+            border-radius: 12px; /* Bordes redondeados en la imagen */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra alrededor de la imagen */
+            opacity: 0.95; /*Imagen ligeramente transparente */
+        }
+
+        #presentacion {
+            column-count: 2; /*DISEÑO DE COLUMNAS: Divide el texto en dos columnas */
+        }
+
+        a {
+            display: inline-block;
+            margin: 0.5rem 0;
+            padding: 0.4rem 0.8rem;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 6px; /*Bordes redondeados en los enlaces */
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease; /*TRANSICIÓN: Suaviza el cambio al pasar el ratón */
+            position: relative; /*DISPOSICIÓN: Posicionamiento relativo para permitir ajustes internos */
+        }
+
+        a:hover {
+            background-color: #cce6ff;
+            transform: scale(1.05); /*TRANSFORMACIÓN: Aumenta el tamaño del enlace al pasar el ratón */
+        }
+
+        .bloque-fijo {
+            position: fixed; /*DISPOSICIÓN: Aunque hagamos scroll el elemento se mantendrá fijo*/
+            bottom: 10px;
+            right: 10px;
+            background-color: #eee;
+            padding: 0.5rem;
+            border-radius: 6px;
+        }
+   
