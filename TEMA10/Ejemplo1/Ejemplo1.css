@@ -1,0 +1,31 @@
+nombre{
+    font-size: 2rem;
+    display: block;
+    border: solid 2px chocolate; /*Colorear Borde*/
+    width: 500;
+    padding: 10px;
+    margin: 10px;
+    font-family: verdana;
+    font-weight: bold; /*Letras gordas*/
+
+
+
+
+}
+
+diasentrega{
+    color: red;
+    display: block;
+    padding-left: 50px;
+    font-size: 1.rem;
+
+
+
+
+}
+
+#especial{
+    background-color: aqua;
+
+
+}

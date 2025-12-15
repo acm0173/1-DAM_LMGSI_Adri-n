@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejemplo1.css" type="text/css"?>
+
+
+
+<listaclientes>
+    <cliente cif="5676443"> <!-- Atributo = CIF -->
+        <nombre>Mercasa</nombre>
+        <diasentrega>Lunes</diasentrega>
+        <diasentrega>Martes</diasentrega>
+    </cliente>
+
+    <cliente cif="5121554">
+        <nombre id="especial"> Acer S.L</nombre>
+        <diasentrega>Martes</diasentrega>
+
+
+    </cliente>
+</listaclientes>

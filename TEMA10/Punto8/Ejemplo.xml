@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE texto [
+    <!ELEMENT texto (contenido+)>
+    <!ENTITY asignaturas "6"> <!-- Las variables creadas tendrán el valor que le des en esta línea de código u otras-->
+
+    <!ELEMENT contenido (#PCDATA)>
+]>
+<texto>
+    <contenido>
+        El curso tiene &asignaturas; asignaturas <!-- & Sirve para crear variables -->
+    </contenido>
+
+</texto>
