@@ -2,9 +2,9 @@
 <!DOCTYPE listaclientes [
     <!ELEMENT listaclientes (cliente+)>
     <!ELEMENT cliente (nombre, diasentrega+)>
+    <!ATTLIST cliente cif CDATA #REQUIRED>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT diasentrega (#PCDATA)>
-    <!ATTLIST cliente cif CDATA #REQUIRED>
 ]>
 
 

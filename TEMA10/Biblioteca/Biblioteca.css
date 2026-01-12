@@ -3,7 +3,7 @@
   display: block;
 }
 
-informatica {
+listacomponentes {
   background-color: chocolate;
   width: 300px;
   padding: 5px;
@@ -12,9 +12,9 @@ informatica {
   border: solid 3px blue;
 }
 
-informatica:before {
+listacomponentes:before {
   display: block;
-  content: "Libros de informática";
+  content: "Componentes de Informatica";
   color: white;
   background-color: black;
   width: 280px;

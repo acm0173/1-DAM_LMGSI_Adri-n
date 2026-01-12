@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    display: block;
+}
+
+fabricante {
+  
+  width: 300px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: solid 3px blue;
+}
+
+fabricante:before {
+  display: block;
+  content: "Componentes de informática";
+  color: white;
+  background-color: black;
+  width: 280px;
+}
+
+tienda:before {
+  display: block;
+  content: "PCcomponentes";
+  color: white;
+  
+  width: 280px;
+}
+
+tienda {
+  width: 300px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: solid 3px blue;
+}
+
+contenido:before {
+  display: block;
+  content: "PCcomponentes";
+  color: white;
+  
+  width: 280px;
+}
+
+contenido{
+  
+  width: 300px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: solid 3px blue;
+}
+

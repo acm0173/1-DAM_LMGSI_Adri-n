@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="componentes.css"?>
+
+<!DOCTYPE listacomponentes [
+  <!ELEMENT listacomponentes (componente+)>
+  <!ELEMENT componente (fabricante, tienda*, contenido)>
+  <!ATTLIST componente 
+  id CDATA #REQUIRED
+  tipo (hardware|periferico) "hardware">
+
+  <!ELEMENT fabricante (cif, nombre, pais, ciudad?)> 
+  <!ELEMENT cif (#PCDATA)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT pais (#PCDATA)>
+  <!ELEMENT ciudad (#PCDATA)>
+  
+ 
+
+  <!ELEMENT tienda (nombre, direccion, telefono, email?)>
+  <!ELEMENT nombr (#PCDATA)>
+  <!ELEMENT direccion (#PCDATA)>
+  <!ELEMENT telefono (#PCDATA)>
+  
+
+  <!ELEMENT contenido (descripcion, consumo, garantia?, (precio_sin_iva | precio_con_iva))>
+  <!ELEMENT descripcion (#PCDATA)>
+  <!ELEMENT consumo (#PCDATA)>
+  <!ELEMENT garantia (#PCDATA)>
+  <!ELEMENT precio_sin_iva (#PCDATA)>
+  <!ELEMENT precio_con_iva (#PCDATA)>
+  
+]> 
+<!-- No he podido explicartelo porque me quedé en blanco al principio-->
+<listacomponentes>
+  <componente id="CPU01" tipo="hardware">
+    <fabricante>
+      <cif>A12345678</cif>
+      <nombre>Intel</nombre>
+      <pais>USA</pais>
+      <ciudad>Santa Clara</ciudad>
+    </fabricante>
+    <tienda>
+      <nombre>PCComponentes</nombre>
+      <direccion>Calle Mayor 12</direccion>
+      <telefono>912345678</telefono>
+    </tienda>
+    <contenido>
+      <descripcion>Procesador Intel i7</descripcion>
+      <consumo>125W</consumo>
+      <garantia>3 años</garantia>
+      <precio_sin_iva>300</precio_sin_iva>
+    </contenido>
+  </componente>
+</listacomponentes>
