@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="componente">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="marca" type="xs:string"> </xs:element>
+                <xs:element name="modelo" type="xs:string"> </xs:element>
+                <xs:element name="categoria" type="tipocategoria"> </xs:element>
+                <xs:element name="precio" type="tipoprecio"> </xs:element>
+                    <xs:choice >
+                        <xs:element name="stock" type="xs:unsignedShort" minOccurs="0"> </xs:element>
+                        <xs:element name="cantidad" type="xs:unsignedShort" minOccurs="0" ></xs:element>
+                    </xs:choice>
+                <xs:element name="fecha_alta" type="xs:date"> </xs:element>
+                <xs:element name="garantia" type="tipogarantia"> </xs:element>
+                <xs:element name="color" type="xs:string" minOccurs="0"> </xs:element>
+                <xs:element name="cliente_reserva" type="tipocliente_reserva"> </xs:element>
+                <xs:element name="extras" type="tipoextras" maxOccurs="2"> </xs:element>
+
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipoprecio">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="300"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipocategoria"> 
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="CPU"></xs:enumeration>
+            <xs:enumeration value="GPU"></xs:enumeration>
+            <xs:enumeration value="RAM"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipogarantia">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="6"></xs:minInclusive>
+            <xs:maxInclusive value="60"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipocliente_reserva">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{8}[A-Z]"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoextras">
+        <xs:list itemType="xs:string"></xs:list>
+    </xs:simpleType>
+</xs:schema>
+
+<!-- ADRIÁN CUEVAS MARTÍNEZ -->

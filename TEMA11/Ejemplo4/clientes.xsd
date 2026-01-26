@@ -28,9 +28,6 @@
     <xs:simpleType name="tipodni">
         <xs:restriction base="xs:string">
             <xs:length value="9"></xs:length> <!-- lo escrito en el campo debe tener una longitud concreta -->
-
-
-
         </xs:restriction>
     </xs:simpleType>
 
