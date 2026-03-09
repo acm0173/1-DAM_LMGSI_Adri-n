@@ -11,17 +11,7 @@
                     <xs:element name="precio_con_iva" type="xs:integer"> </xs:element>
 
                 </xs:choice>
-
-
-
-
-
             </xs:sequence>
-
-
-
-
-
         </xs:complexType>
     </xs:element>
 </xs:schema>
