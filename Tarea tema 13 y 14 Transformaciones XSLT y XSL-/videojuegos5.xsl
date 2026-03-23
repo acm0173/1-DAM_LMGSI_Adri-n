@@ -19,6 +19,9 @@
           <xsl:for-each select="videojuego">
             <xsl:sort select="precio" data-type="number" order="descending"/>
             
+            <xsl:comment> xsl:sort sirve para ordenar el contenido de cada elemento de una forma u otra, en este caso al utilizar "data-type = number" order = descending" 
+              de esta forma estamos diciendole al programa que ordene el contenido por numeros de manera descendiente </xsl:comment>
+            
             <tr>
               <td><xsl:value-of select="nombre"/></td>
               <td><xsl:value-of select="precio"/></td>

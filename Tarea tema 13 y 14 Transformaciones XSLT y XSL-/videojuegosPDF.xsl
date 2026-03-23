@@ -7,7 +7,10 @@
   
   <xsl:template match="/catalogo">
     <fo:root>
+      <xsl:comment> Es la raiz. Contiene todo el documento PDF </xsl:comment>
+
       <fo:layout-master-set>
+        <xsl:comment> Define las plantillas de página, por ejemplo márgenes, tamaño </xsl:comment>
         <fo:simple-page-master master-name="A4"
                                page-height="29.7cm" page-width="21cm" margin="2cm">
           <fo:region-body/>
@@ -15,6 +18,7 @@
       </fo:layout-master-set>
       
       <fo:page-sequence master-reference="A4">
+        <xsl:comment> (fo:page-sequence) Vincula los datos XML con una plantilla de página especifica </xsl:comment>
         <fo:flow flow-name="xsl-region-body">
           
           <fo:block font-size="24pt" text-align="center" margin-bottom="20pt"
@@ -25,6 +29,7 @@
           <xsl:apply-templates/>
           
         </fo:flow>
+        <xsl:comment> Es el "contenedor" donde se meterán todas las tablas y textos de tu proyecto </xsl:comment>
       </fo:page-sequence>
     </fo:root>
   </xsl:template>
@@ -33,6 +38,8 @@
     <fo:block font-size="12pt" margin-bottom="15pt">
       
       <fo:block font-weight="bold" border-bottom="solid 1px black" margin-bottom="5pt">
+        
+        <xsl:comment> Separa párrafos y bloques de texto como "div" o "p" </xsl:comment>
         Videojuego
       </fo:block>
       

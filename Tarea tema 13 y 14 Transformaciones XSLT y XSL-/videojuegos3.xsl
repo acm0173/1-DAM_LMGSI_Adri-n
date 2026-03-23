@@ -15,9 +15,15 @@
         <table>
           <th>Nombre</th>
           <th>Precio</th>
+
           
           <xsl:for-each select="videojuego">
-            <xsl:if test="precio &lt; 30">
+            
+            <xsl:comment> (xsl:if) Solo ejecuta lo que tiene dentro si la condición es verdadera. Si es falsa, simplemente no hace nada </xsl:comment>
+
+            <xsl:if test="precio &lt; 30"> 
+              
+              <xsl:comment> Como podemos observar solamente mostrará los precios menores a 30 junto a sus nombres </xsl:comment>
               <tr>
                 <td><xsl:value-of select="nombre"/></td>
                 <td><xsl:value-of select="precio"/></td>

@@ -24,6 +24,7 @@
           padding: 10px;
           border: 2px solid black;
           text-align: center;
+          
           }
         </style>
       </head>
