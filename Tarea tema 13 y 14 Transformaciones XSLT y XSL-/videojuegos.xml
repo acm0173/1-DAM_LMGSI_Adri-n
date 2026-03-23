@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="videojuegos.xsl" type="text/xsl"?>
+<catalogo tipo="videojuegos">
+    <videojuego>
+        <nombre>The Legend of Zelda: Breath of the Wild</nombre>
+        <precio>59.99</precio>
+        <descripcion>Aventura de mundo abierto para Nintendo Switch.</descripcion>
+        <puntuacion>9.8</puntuacion>
+    </videojuego>
+    
+    <videojuego>
+        <nombre>God of War</nombre>
+        <precio>49.99</precio>
+        <descripcion>Acción y mitología nórdica en PlayStation.</descripcion>
+        <puntuacion>9.5</puntuacion>
+    </videojuego>
+    
+    <videojuego>
+        <nombre>Hollow Knight</nombre>
+        <precio>14.99</precio>
+        <descripcion>Metroidvania desafiante y atmosférico.</descripcion>
+        <puntuacion>9.0</puntuacion>
+    </videojuego>
+    
+    <videojuego>
+        <nombre>FIFA 24</nombre>
+        <precio>69.99</precio>
+        <descripcion>Simulador de fútbol con licencias oficiales.</descripcion>
+        <puntuacion>7.8</puntuacion>
+    </videojuego>
+    
+    <videojuego>
+        <nombre>Minecraft</nombre>
+        <precio>26.95</precio>
+        <descripcion>Sandbox creativo y de exploración infinita.</descripcion>
+        <puntuacion>9.2</puntuacion>
+    </videojuego>
+</catalogo>
