@@ -13,19 +13,32 @@
           #caro{background-color:salmon;}          
         </style>
 
+<<<<<<< Updated upstream
         <xsl:comment> Define el color salmón para los elementos con el ID "caro" </xsl:comment>
         <xsl:comment> Define el color verde claro para los elementos con el ID "barato" </xsl:comment>
+=======
+        
+>>>>>>> Stashed changes
       </head>
       
       <body>
         <table>
           <th>Nombre</th>
           <th>Precio</th>
+<<<<<<< Updated upstream
           
           <xsl:for-each select="videojuego"> <xsl:comment> Dicho de una forma más coloquial, es como decirle a la condicional que haga lo mismo para cada elemento con el nombre "videojuego" 
             haciendo su transformación necesaria </xsl:comment>
             
             <xsl:comment> Esta instrucción se utiliza para recorrer de manera iterativa diversos nodos del documento origen y aplicarles la
+=======
+          <xsl:comment> Define el color salmón para los elementos con el ID "caro" </xsl:comment>
+          <xsl:comment> Define el color verde claro para los elementos con el ID "barato" </xsl:comment>
+          <xsl:for-each select="videojuego"> <xsl:comment> Dicho de una forma más coloquial, es como decirle a la condicional que haga lo mismo para cada elemento con el nombre "videojuego" 
+            haciendo su transformación necesaria </xsl:comment>
+            
+            <xsl:comment> Esta instrucción se utiliza para recorrer nodos del documento origen y aplicarles la
+>>>>>>> Stashed changes
             transformación necesaria. </xsl:comment>
             <tr>
               <td><xsl:value-of select="nombre"/></td>
