@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Uso de document.write</title>
+<script>
+    function persona(nombre,edad,ciudad)
+    {
+        this.nombre=nombre;
+        this.edad=edad;
+        this.ciudad=ciudad;
+        this.visualiza=visualiza;
+    }
+
+    function visualiza()
+    {
+        document.write("<li>" + this.nombre
+        + " tiene " + this.edad + " años y "
+        + " vive en " + this.ciudad + "</li>");
+    }
+</script>
+</head>
+<body>
+<h1>Creación de tres objetos<br>
+y su visualización</h1>
+<ul>
+<script>
+    persona1=new persona
+    ('Gloria',23,'Málaga');
+    persona2=new persona
+    ('Alberto',25,'Córdoba');
+    persona3=new persona
+    ('Silvia',26,'Sevilla');
+    persona1.visualiza();
+    persona2.visualiza();
+    persona3.visualiza();
+</script>
+</ul>
+</body>
+</html>
