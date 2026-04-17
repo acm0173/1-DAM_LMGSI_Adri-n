@@ -1,0 +1,38 @@
+<meta charset="UTF-8" />
+<title>Estructuras de control</title>
+<script type="text/javascript">
+
+    /* Se comprueba el valor de nota y se muestra la nota
+    en letra. En cada bloque se indica break; para que
+    no siga comprobando valores porque ya se ha
+    cumplido uno. Si no se cumple ninguna se muestra
+    lo que se indica en default; Si se quieren indicar
+    varios valores hay que repetir la palabra
+    reservada case. */
+
+    switch (nota) {
+        case 6:
+            console.log("Bien");
+            break;
+        case 7:
+        case 8:
+            console.log("Notable");
+            break;
+        case 9:
+        case 10:
+            console.log("Sobresaliente");
+            break;
+        default:
+            console.log("Suspenso");
+    }
+
+    /* En este caso se inicializa el contador al principio
+    de la sentencia y en el cuerpo se va incrementando.
+    Cuando no se cumpla la condición se sale. */
+    num = 1;
+    salida = "";
+    while (num <= 10) {
+        salida = salida + "5*" + num + "=" + 5 * num + " ";
+        num++;
+    }
+    console.log(salida);

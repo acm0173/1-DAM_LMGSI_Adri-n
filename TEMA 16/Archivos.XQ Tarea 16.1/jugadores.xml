@@ -1,0 +1,49 @@
+<jugadores>
+  <jugador cod="x101">
+    <nombreCompleto>Mateo Rinaldi</nombreCompleto>
+    <nacimiento>1994</nacimiento>
+    <pais>Italia</pais>
+    <posicion>Delantero</posicion>
+    <equipo>Torino United</equipo>
+  </jugador>
+
+  <jugador cod="x102">
+    <nombreCompleto>Samuel Ortega</nombreCompleto>
+    <nacimiento>2000</nacimiento>
+    <pais>México</pais>
+    <posicion>Centrocampista</posicion>
+    <equipo>Leones del Norte</equipo>
+  </jugador>
+
+  <jugador cod="x103">
+    <nombreCompleto>Oliver Bergström</nombreCompleto>
+    <nacimiento>1997</nacimiento>
+    <pais>Suecia</pais>
+    <posicion>Defensa</posicion>
+    <equipo>Stockholm Warriors</equipo>
+  </jugador>
+
+  <jugador cod="x104">
+    <nombreCompleto>Thierry Moreau</nombreCompleto>
+    <nacimiento>1992</nacimiento>
+    <pais>Francia</pais>
+    <posicion>Portero</posicion>
+    <equipo>Paris Guardians</equipo>
+  </jugador>
+
+  <jugador cod="x105">
+    <nombreCompleto>Rafael Domínguez</nombreCompleto>
+    <nacimiento>1988</nacimiento>
+    <pais>España</pais>
+    <posicion>Defensa</posicion>
+    <equipo>Atlético del Sur</equipo>
+  </jugador>
+
+  <jugador cod="x106">
+    <nombreCompleto>Javier Molina</nombreCompleto>
+    <nacimiento>1999</nacimiento>
+    <pais>España</pais>
+    <posicion>Delantero</posicion>
+    <equipo>Valencia Nova</equipo>
+  </jugador>
+</jugadores>
