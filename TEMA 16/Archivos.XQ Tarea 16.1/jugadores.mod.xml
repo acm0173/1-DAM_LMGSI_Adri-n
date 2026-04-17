@@ -1,0 +1,49 @@
+<jugadores>
+  <jugador cod="x101">
+    <nombreCompleto>Mateo Rinaldi</nombreCompleto>
+    
+    <nacionalidad>Italia</nacionalidad>
+    <posicion>Delantero</posicion>
+    <equipo>Torino United</equipo>
+  </jugador>
+
+  <jugador cod="x102">
+    <nombreCompleto>Samuel Ortega</nombreCompleto>
+    
+    <nacionalidad>México</nacionalidad>
+    <posicion>Centrocampista</posicion>
+    <equipo>Leones del Norte</equipo>
+  </jugador>
+
+  <jugador cod="x103">
+    <nombreCompleto>Oliver Bergström</nombreCompleto>
+    
+    <nacionalidad>Suecia</nacionalidad>
+    <posicion>Defensa</posicion>
+    <equipo>Stockholm Warriors</equipo>
+  </jugador>
+
+  <jugador cod="x104">
+    <nombreCompleto>Thierry Moreau</nombreCompleto>
+    
+    <nacionalidad>Francia</nacionalidad>
+    <posicion>Portero</posicion>
+    <equipo>Real Madrid</equipo>
+  </jugador>
+
+  <jugador cod="x105">
+    <nombreCompleto>Rafael Domínguez</nombreCompleto>
+    
+    <nacionalidad>España</nacionalidad>
+    <posicion>Defensa</posicion>
+    <equipo>Atlético del Sur</equipo>
+  </jugador>
+
+  <jugador cod="x106">
+    <nombreCompleto>Javier Molina</nombreCompleto>
+    
+    <nacionalidad>España</nacionalidad>
+    <posicion>Delantero</posicion>
+    <equipo>Valencia Nova</equipo>
+  </jugador>
+<jugador cod="PC111"><nombreCompleto>Adrián Cuevas Martínez</nombreCompleto><nacionalidad>España</nacionalidad><posicion>Centrocampista</posicion><equipo>F.C.Adrián</equipo></jugador></jugadores>

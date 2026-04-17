@@ -8,9 +8,9 @@ return
   <head>
     <title>Jugadores de Francia</title>
     <style>
-      table {{ border-collapse: collapse; width: 50%; }}
+      table {{ border-collapse: collapse; width: 60%; }}
       th, td {{ border: 1px solid black; padding: 8px; }}
-      th {{ background-color: #ddd; }}
+      th {{ background-color: #ccc; }}
     </style>
   </head>
 
@@ -20,11 +20,10 @@ return
       <tr><th>Nombre</th><th>Equipo</th></tr>
       {
         for $j in $ord
-        let $eq := ($j/equipo, $j/club, $j/team, $j/equipoActual)[1]
         return
           <tr>
             <td>{ $j/nombreCompleto/text() }</td>
-            <td>{ $eq/text() }</td>
+            <td>{ $j/equipo/text() }</td>
           </tr>
       }
     </table>
