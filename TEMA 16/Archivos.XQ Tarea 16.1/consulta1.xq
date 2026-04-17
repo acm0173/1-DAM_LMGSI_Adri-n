@@ -1,11 +1,9 @@
 (: Nombre: Adrián Cuevas Martínez :)
 
-for $jug in doc("jugadores.xml")//jugador
-order by $jug/equipo
-
+for $j in /jugadores/jugador
+let $nombre := $j/nombreCompleto/text()
+let $equipo := $j/equipo/text()
+let $pos := substring($j/posicion, 1, 3)
+order by $equipo ascending
 return
-<jugador>{
-    concat($jug/nombreCompleto, " -- ",
-           $jug/equipo, " -- ",
-           substring($jug/posicion, 1, 3))
-  }</jugador>
+  <jugador>{concat($nombre, " -- ", $equipo, " -- ", $pos)}</jugador>
