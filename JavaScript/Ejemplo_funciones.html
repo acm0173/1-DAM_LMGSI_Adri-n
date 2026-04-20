@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+                var cad = "Lenguaje de Marcas"
+                var array;
+
+                // funciones de texto
+                document.write("Longitud: " + cad.length + " <br>");
+                // length, longitud de una cadena de texto
+                document.write(cad.toUpperCase() + " <br>");
+                // Uppercase, pone todo en mayúscula
+                document.write(cad.charAt(5) + " <br>");
+                // charAt, pone la letra en la posición entre "(x)" y la muestra unicamente
+                document.write(cad.indexOf("a") + " <br>");
+                // indexOf, muestra la posición en la que se observa la letra que buscas
+                document.write(cad.substring(5,10) + " <br>");
+                document.write(cad.includes("de") + " <br>");
+                array = cad.split(" ");
+                // Split, cadena de texto que te lo separa como en un array
+                console.log(array);
+                array.pop();
+                // Pop, elimina el último elemento del array
+                console.log(array);
+                // console.log, para mostrar por pantalla
+                array.push("datos");
+                console.log(array);
+                array.shift();
+                //shift, elimina el primer elemento del array
+                console.log(array);
+                array.unshift("Bases");
+                // unshift,añade un elemento al principio del array
+                console.log(array);
+                document.write(array.reverse());
+                cad2 = array.join(" ");
+                //join, por cada separación muestra lo puesto escrito en la variable
+                document.write("Lo pasamos a cadena " + cad2);
+        </script>
+    
+</body>
+</html>

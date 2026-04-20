@@ -1,11 +1,9 @@
 (: Nombre: Adrián Cuevas Martínez :)
 
-let $jug := /jugadores/jugador[nacimiento < 1990]
-return
-  <resultado>
-    <total>{count($jug)}</total>
-    {
-      for $j at $i in $jug
-      return <nombre>{concat($i, ". - ", $j/nombreCompleto/text())}</nombre>
-    }
-  </resultado>
+declare function local:jugadoresPorEquipo($equipo as xs:string) {
+  for $j in /jugadores/jugador
+  where lower-case($j/equipo) = lower-case($equipo)
+  return <nombre>{concat($j/@cod, " -- ", $j/nombreCompleto/text())}</nombre>
+};
+
+local:jugadoresPorEquipo("Paris Guardians")
