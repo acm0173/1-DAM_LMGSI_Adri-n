@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="parrafo1"> Pulse el botón para cambiar su contenido </p>
+    <p class="parrafo2"> Otro párrafo de prueba 2 </p>
+    <p> Otro párrafo de prueba </p>
+    <button onclick="cambia()"> Cambiar </button>
+
+    <script>
+        function cambia() {
+            var elemento = document.getElementById("parrafo1");
+            //document.getElementsByTagName("escribe una palabra o letra y la buscará")[si hay muchos elementos con esa letra o palabra pones del 0 al infinito para buscarlo]
+
+            console.log(elemento);
+            elemento.style.color = "Red";
+            //añadir un color a la frase
+
+            elemento.style.backgroundColor = "Black";
+            //añadir un color de fondo
+
+            elemento.innerHTML = "Hola <b> a todos </b>"
+            //innverHTML sirve para cambiar el contenido del texto
+            //innerTEXT si en cuyo caso pones innerTEXT, el texto cambiado será el tal cual 
+            //esté en el código, incluyendo código del mismo + texto
+
+            // elemento.outerHTML = "Hola a todos"
+            //outerHTML quita todos los estilos que tenga el texto
+
+
+        }
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

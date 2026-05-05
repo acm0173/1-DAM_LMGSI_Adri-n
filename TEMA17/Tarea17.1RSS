@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Gaming News by Adrián</title>
+    <link>https://tusitio.com</link>
+    <description>Últimas noticias y lanzamientos del mundo de los videojuegos</description>
+    <language>es-es</language>
+    <pubDate>Mon, 27 Apr 2026 12:00:00 +0200</pubDate>
+
+    <item>
+      <title>Lanzamiento oficial de Elden Ring 2</title>
+      <link>https://tusitio.com/elden-ring-2</link>
+      <description>FromSoftware confirma la secuela del GOTY 2022 con nuevo tráiler.</description>
+      <pubDate>Mon, 20 Apr 2026 10:00:00 +0200</pubDate>
+      <author>adrian@tusitio.com</author>
+      <category>RPG</category>
+      <guid>elden-ring-2-2026</guid>
+      <enclosure url="https://tusitio.com/img/eldenring2.jpg" type="image/jpeg" />
+    </item>
+
+    <item>
+      <title>Xbox anuncia su nueva consola portátil</title>
+      <link>https://tusitio.com/xbox-portatil</link>
+      <description>Microsoft sorprende con un dispositivo híbrido orientado al juego en la nube.</description>
+      <pubDate>Tue, 22 Apr 2026 09:30:00 +0200</pubDate>
+      <category>Hardware</category>
+      <guid>xbox-portatil-2026</guid>
+    </item>
+
+    <item>
+      <title>Actualización 3.0 de Cyberpunk 2077</title>
+      <link>https://tusitio.com/cyberpunk-3</link>
+      <description>CD Projekt RED lanza una actualización masiva con mejoras gráficas y nuevas misiones.</description>
+      <pubDate>Wed, 23 Apr 2026 14:00:00 +0200</pubDate>
+      <category>Acción</category>
+      <guid>cyberpunk-3-2026</guid>
+    </item>
+
+    <item>
+      <title>Nintendo prepara un nuevo Mario 3D</title>
+      <link>https://tusitio.com/mario-3d</link>
+      <description>Rumores apuntan a un nuevo título de Mario para Switch 2.</description>
+      <pubDate>Thu, 24 Apr 2026 16:00:00 +0200</pubDate>
+      <category>Plataformas</category>
+      <guid>mario-3d-2026</guid>
+    </item>
+
+    <item>
+      <title>Steam alcanza récord histórico de usuarios simultáneos</title>
+      <link>https://tusitio.com/steam-record</link>
+      <description>La plataforma de Valve supera los 40 millones de jugadores conectados.</description>
+      <pubDate>Fri, 25 Apr 2026 18:00:00 +0200</pubDate>
+      <category>Industria</category>
+      <guid>steam-record-2026</guid>
+    </item>
+
+  </channel>
+</rss>
