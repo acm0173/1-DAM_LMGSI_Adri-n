@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 14</title>
+</head>
+<!-- Comprobar palabras spam: Escribe una función checkSpam(str) que devuelva true si str contiene 
+ la subcadena ‘viagra’ o ‘XXX’, en otro caso devuelve false-->
+
+<body>
+    <script>
+        var frase = prompt("Dime una frase")
+
+         checkSpam(frase)
+
+         function checkSpam(frase){
+            if(frase.includes("viagra") || frase.includes("XXX")){
+                document.write("Contiene SPAM");
+            }
+            else 
+                document.write("No contiene SPAM");
+         }
+    </script>
+
+</body>
+
+</html>

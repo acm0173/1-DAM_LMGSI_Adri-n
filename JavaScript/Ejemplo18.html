@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 18</title>
+</head>
+<body>
+    <!--Pide al usuario una frase y muestra por pantalla 
+    el número de palabras que la forman (separadas por espacio) y cuáles son:-->
+    <script>
+        var frase = prompt("Escribe una frase");
+        var palabras = frase.split(" ");
+        document.write("Nº palabras " + palabras.length + "<br>");
+
+        for(i=0; i<palabras.length; i++){
+            document.write(i+1 + "" + palabras[i] + "<br>");
+
+        }
+        
+    </script>
+</body>
+</html>

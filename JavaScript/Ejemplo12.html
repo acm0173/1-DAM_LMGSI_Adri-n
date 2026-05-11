@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 12</title>
+</head>
+<body>
+    <script>
+        var array = [];
+
+        for(i=1; i<=6; i++){
+            var numero = Math.floor(Math.random()*49)+1;
+            
+            if(!array.includes(numero))
+                array.push(numero);
+            else
+                i--;
+            }
+        
+        document.write(array);
+        console.log(numero)
+
+    </script>
+</body>
+</html>

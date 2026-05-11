@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 11 PARA EXAMEN</title>
+</head>
+
+<body>
+    <input id="newLine" type="text" name="newLine">
+    <!--addElement: es un método-->
+    <button onclick="addElement()"> Crear</button>
+    <ul></ul>
+    <!-- con getElementByid: cogemos el método que hicimos antes "addElement"-->
+    <!-- var entrada = document.getElementById("newLine") recoge lo que haya escrito el usuario-->
+    <!-- var texto = entrada.value: guarda lo escrito por el usuario en una variable pero dándole un valor-->
+    <!-- lista.appendChild(nuevoli): de la lista que creamos antes "nuevoli" metemos esa lista como hijo dentro de la "ul" lista-->
+    <script>
+
+        function addElement() {
+            var entrada = document.getElementById("newLine");
+            var texto = entrada.value;
+
+            if (texto == "") {
+                entrada.style.backgroundColor = "red";
+                alert("Escribe algo !!!");
+            }
+
+            else {
+                var lista = document.getElementByTagName("ul")[0];
+                var nuevoli = document.createElement("li");
+                nuevoli.innerHTML = texto;
+                lista.appendChild(nuevoli);
+                entrada.style.backgroundColor = "white";
+                entrada.value = "";
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

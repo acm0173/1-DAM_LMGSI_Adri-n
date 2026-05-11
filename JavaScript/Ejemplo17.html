@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 17</title>
+</head>
+
+<body>
+<!-- En un blog, el slug de un post es la parte de la url que se crea a partir del título del post.
+Por ejemplo, en la web www.aprendojs.com, a partir del post con título “Como usar Strings en Javascript” se crearía la url: https://www.aprendojs.com/como-usar-strings-en-javascript
+Escribir una función que reciba la web y el nombre del post y devuelva el slug de esta forma:
+
+    -  Pasar a minúsculas el título.
+    -  Unir todas las palabras del post con guiones.
+    -  Tiene que aparecer en otra línea el número de caracteres que tiene nuestra url-->
+
+    <script>
+        var web = prompt("Escribe una página web");
+        var slug = prompt("Escribe el título del post:");
+
+        crearSlug(web,post);
+
+        function crearSlug(web, post){
+            var texto = post.toLowerCase().split(" ").join("-");
+            console.log(texto);
+            var url = "http://"+web+"/"+texto;
+            document.write(url);
+            document.write("<br>");
+            document.write("La url tiene " + url.length + "caracteres");
+            document.write("http://"+web+"/"+texto);
+        }
+
+
+    </script>
+</body>
+
+</html>
