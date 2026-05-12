@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Tendencias Culinarias 2026</title>
+    <link>https://ejemplo.es</link>
+    <description>Novedades, recetas y tendencias gastronómicas del año 2026.</description>
+    <language>es-es</language>
+    
+    <atom:link href="https://raw.githubusercontent.com/acm0173/1-DAM_LMGSI_Adri-n/refs/heads/main/TEMA17/Tarea%2017.1.xml" 
+               rel="self" 
+               type="application/rss+xml" />
+    
+    <lastBuildDate>Mon, 11 May 2026 16:00:00 +0200</lastBuildDate>
+    
+    <item>
+      <title>La cocina molecular vuelve con fuerza</title>
+      <link>https://ejemplo.es/cocina-molecular</link>
+      <description>Restaurantes de alta cocina recuperan técnicas de esferificación y uso de nitrógeno líquido.</description>
+      <pubDate>Sun, 10 May 2026 12:00:00 +0200</pubDate>
+      <author>chefnews@ejemplo.es</author>
+      <category>Alta cocina</category>
+      <guid isPermaLink="false">cocina-molecular-001</guid>
+      <enclosure 
+        url="https://raw.githubusercontent.com/acm0173/1-DAM_LMGSI_Adri-n/main/TEMA17/cocina-molecular-2.jpg"
+        length="24567"
+        type="image/jpeg"/>
+
+
+    </item>
+    
+    <item>
+      <title>El pan artesanal de masa madre domina el mercado</title>
+      <link>https://ejemplo.es/masa-madre</link>
+      <description>Panaderías locales apuestan por fermentaciones largas y harinas ecológicas.</description>
+      <pubDate>Fri, 08 May 2026 10:30:00 +0200</pubDate>
+      <category>Panadería</category>
+      <guid isPermaLink="false">masa-madre-002</guid>
+      <enclosure 
+        url="https://raw.githubusercontent.com/acm0173/1-DAM_LMGSI_Adri-n/main/TEMA17/pan-artesanal.jpg"
+        length="30211"
+        type="image/jpeg"/>
+
+
+    </item>
+    
+    <item>
+      <title>La alimentación sostenible se convierte en tendencia global</title>
+      <link>https://ejemplo.es/alimentacion-sostenible</link>
+      <description>Uso de productos de proximidad y reducción del desperdicio alimentario.</description>
+      <pubDate>Thu, 07 May 2026 18:00:00 +0200</pubDate>
+      <category>Sostenibilidad</category>
+      <guid isPermaLink="false">alimentacion-sostenible-003</guid>
+      <enclosure 
+        url="https://raw.githubusercontent.com/acm0173/1-DAM_LMGSI_Adri-n/main/TEMA17/alimentacion-sostenible.jpg"
+        length="19876"
+        type="image/jpeg"/>
+
+    </item>
+    
+    <item>
+      <title>Sabores asiáticos conquistan las cocinas europeas</title>
+      <link>https://ejemplo.es/sabores-asiaticos</link>
+      <description>El ramen, el kimchi y el curry tailandés ganan protagonismo en la restauración.</description>
+      <pubDate>Wed, 06 May 2026 15:00:00 +0200</pubDate>
+      <category>Cocina internacional</category>
+      <guid isPermaLink="false">sabores-asiaticos-004</guid>
+      <enclosure 
+        url="https://raw.githubusercontent.com/acm0173/1-DAM_LMGSI_Adri-n/main/TEMA17/comida-asiatica.jpg"
+        length="28765"
+        type="image/jpeg"/>
+
+    </item>
+    
+    <item>
+      <title>Los postres veganos alcanzan su mejor momento</title>
+      <link>https://ejemplo.es/postres-veganos</link>
+      <description>Repostería sin lácteos ni huevos con resultados sorprendentes.</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0200</pubDate>
+      <category>Repostería</category>
+      <guid isPermaLink="false">postres-veganos-005</guid>
+      <enclosure 
+        url="https://raw.githubusercontent.com/acm0173/1-DAM_LMGSI_Adri-n/main/TEMA17/postre-vegano.jpg"
+        length="25678"
+        type="image/jpeg"/>
+
+    </item>
+    
+  </channel>
+</rss>
